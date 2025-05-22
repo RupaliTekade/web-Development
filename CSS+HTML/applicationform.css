@@ -1,0 +1,25 @@
+#header{
+    width: 1000px;
+    display: grid;
+    gap: 10px;
+}
+#heading{
+    text-align: center;
+}
+
+.section1{
+    width:1000px;
+    
+    display:flex;
+    flex-direction:column;
+}
+#label1{
+    width: 1000px;
+}
+#section1 div{
+    width: 1000px;
+}
+
+
+
+

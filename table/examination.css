@@ -1,0 +1,10 @@
+#head{
+    background-color: cornflowerblue;
+    text-align: center;
+    display:flex
+}
+#tablesection{
+    border:5px solid whitesmoke;
+    text-align: center;
+    width: 500px;
+}

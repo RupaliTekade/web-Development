@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#headerSection{
+    width: 900px;
+    background-color: blueviolet;
+    color: aliceblue;
+    text-align: center;
+}
+
+#BusinessNameSection{
+    display: flex;
+    height:150px;
+}
+
+#businessNameTable td{
+    width: 350px;  
+ }
+
+#companyLogo{
+    width:175px;
+    height: 150px;
+}
+
+#businessNameTable {
+    border-right: 1px solid blueviolet;
+}
+
+#image{
+    width: 200px;
+    text-align: center;
+}
+
+
+#billToSecton table{
+    width: 900px;
+    border-collapse: collapse;
+}
+
+#billToSecton table td{
+    width: 450px;
+    height: 30px;
+    
+}
+
+#billToSectonTableHeader{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+#amountsection table{
+    width:900px;
+    border-collapse: collapse;
+}
+
+
+#tablesection th{
+    border:2px solid blueviolet;
+    background-color: blueviolet;
+}
+#tablesection td{
+    border:2px solid blueviolet;
+}
+
+
+#rowsection td{
+    height:300px;
+    border:2px solid blueviolet;
+
+    
+}
+#lastsection{
+    border: 2px solid blueviolet;
+}
+

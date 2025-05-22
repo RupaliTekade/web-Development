@@ -1,0 +1,16 @@
+#lbutton:hover{
+    background-color: brown;
+    
+}
+#rbutton:hover{
+    background-color: brown ;
+}
+
+#lbutton:active{
+    background-color: green;
+    
+}
+#rbutton:active{
+    background-color: green ;
+}
+

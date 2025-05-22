@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GST Bill</title>
+    <link rel="stylesheet" href="GstBill.css" />
+  </head>
+  <body>
+    <section id="headerSection">
+      <h1>GST Bill</h1>
+    </section>
+    <section id="BusinessNameSection">
+      <table id="businessNameTable">
+        <tr>
+          <td>Business Name:</td>
+          <td>GSTIN No:</td>
+        </tr>
+        <tr>
+          <td>Address:</td>
+          <td>Invoice no:</td>
+        </tr>
+        <tr>
+          <td>Phone Number:</td>
+          <td>State:</td>
+        </tr>
+      </table>
+      <div id="image">
+        <img src="company.jpg" alt="company logo" id="companyLogo" />
+      </div>
+    </section>
+
+    <section id="billToSecton">
+      <table>
+        <tr id="billToSectonTableHeader">
+          <td>Bill To:</td>
+          <td>Shipping To:</td>
+        </tr>
+        <tr>
+          <td>Name:</td>
+          <td>Name:</td>
+        </tr>
+        <tr>
+          <td>Address:</td>
+          <td>Address:</td>
+        </tr>
+        <tr>
+          <td>Phone No.:</td>
+          <td>Phone No.:</td>
+        </tr>
+        <tr>
+          <td>GSTIN :</td>
+          <td>GSTIN :</td>
+        </tr>
+        <tr>
+          <td>State :</td>
+          <td>State :</td>
+        </tr>
+      </table>
+    </section>
+    <section id="amountsection">
+      <table id="tablesection">
+        <th style="width: 10px">S.No</th>
+        <th>Goods Description</th>
+        <th>HSN</th>
+        <th>QTY</th>
+        <th>MRP</th>
+        <th>Amount</th>
+        <tr id="rowsection">
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td colspan="3" rowspan="2" style="height: 25px;"><b>Amount in words</b></td>
+          <td colspan="2">discount</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="height: 12px;">SGST</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td rowspan="2" colspan="3">
+            Bank Details<br />
+            Account Name:<br />
+            Account Number:<br />
+            IFSC Code:<br />
+          </td>
+          <td colspan="2">CGST</td>
+          <td></td>
+          <tr>
+            <td colspan="2">Balance:</td>
+            <td>Total:</td>
+          </tr>
+        </tr>
+      </table>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,4 @@
+#all{
+    display: flex;
+    grid-template-columns: 200px 200px;
+}

@@ -1,0 +1,162 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-style: sans-serif;
+
+}
+
+body {
+  overflow-x: hidden;
+  background-color:light;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 20px;
+   background-color: light;
+
+}
+
+.nav2 {
+  display: flex;
+  background-color: transparent;
+  border: 1px solid black;
+  height: 50px;
+  width: 600px;
+  border-radius: 16px;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 60px;
+}
+.nav3 {
+  display: flex;
+}
+.nav4 {
+  display: flex;
+}
+
+#nav211 {
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  background-color:transparent;
+
+}
+
+#nav211:hover {
+  box-sizing: border-box;
+  border: 2px solid rgb(47, 141, 184);
+  border-radius: 10px;
+}
+
+.nav221 {
+  height: 38px;
+  width: 300px;
+  font-size: 16px;
+  border: none;
+ background-color:transparent;
+
+}
+
+.nav221:hover {
+  box-sizing: border-box;
+  border: 2px solid rgb(47, 141, 184);
+  border-radius: 10px;
+}
+
+.nav23 {
+  padding-top: 10px;
+}
+
+/* .................................................................. */
+
+/* .forsupport{
+    font-size: 17px;
+    color: #222020;
+} */
+
+.forsupport {
+  margin-top: 7px;
+}
+
+.forsupport1 {
+  color: #1e1e1f;
+  margin-left: 55px;
+}
+
+.forsupport2 {
+  color: black;
+  font-size: 21px;
+  padding-top: 6px;
+}
+
+/* .......................................................... */
+
+.nav4 {
+  gap: 20px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav41 {
+  background-color: transparent;
+  border-radius: 50px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  padding: 5px;
+}
+.nav42 {
+  background-color: transparent;
+  border-radius: 50px;
+  height: 30px;
+  width: 40px;
+  text-align: center;
+  padding-top: 11px;
+}
+
+/* ............................................................ */
+
+.nav5 {
+  gap: 32px;
+  cursor: pointer;
+  line-height: 25px;
+  margin-top: 8px;
+}
+
+#nav51 {
+  border: none;
+  font-size: 16px;
+ background-color:transparent;
+}
+
+.nav52 {
+  font-size: 20px;
+}
+
+
+/* section header 2 */
+#head21 {
+  height: 38px;
+  width: 180px;
+  font-size: 16px;
+  border: none;
+ background-color:transparent;
+ margin-top: 5px;
+ 
+
+}
+
+.head2{
+  display: flex;
+}
+
+.head22{
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+  
+}

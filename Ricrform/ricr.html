@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RICR</title>
+    <link rel="stylesheet" href="ricr.css" />
+  </head>
+  <body>
+    <section id="header">
+      <header>
+        <h1 id="heading">Registration form</h1>
+      </header>
+
+      <section1 class="section">
+        <h3>personal details</h3>
+        <table>
+          <tr>
+            <th></th>
+            <th></th>
+          </tr>
+          <tr>
+            <td><label for="name">Full Name</label></td>
+            <td><input type="text" name="name" id="name"/></td>
+            <span class="error" id="nameerror"></span>
+          </tr>
+          <tr>
+            <td><label for="email">Email</label></td>
+            <td><input type="email" name="email" id="email" /></td>
+            <span class="error" id="emailerror"></span>
+          </tr>
+          <tr>
+            <td><label for="mn">Mobile Number</label></td>
+            <td><input type="tel" name="mn" id="tel"/></td>
+            <span class="error" id="MNerror"></span>
+          </tr>
+          <tr>
+            <td><label for="dob">Date of Birth</label></td>
+            <td><input type="dob" name="dob" id="dob"/></td>
+            <span class="error" id="doberror"></span>
+          </tr>
+        </table>
+      </section1>
+        <!-- ---------------------------------------------------------------------------------------------------- -->
+      <section2 class="section">
+        <h3>Academic details</h3>
+        <table>
+          <tr>
+            <th></th>
+            <th></th>
+          </tr>
+          <tr>
+            <td>
+              <label for="qualification">Last completed Qualification</label>
+            </td>
+            <td>
+              <select name="qualification" id="qualification">
+                <option value="qualification">select qualification</option>
+                <option value="12th">12th</option>
+                <option value="10th">10th</option>
+                <option value="graduate">Graduate</option>
+                <option value="postg">Post graduate</option>
+              </select>
+            </td>
+            <span class="error" id="qualificationerror"></span>
+          </tr>
+          <tr>
+            <td><label for="percentage">Percentage</label></td>
+            <td><input type="text" name="percentage" id="percentage"/></td>
+            <span class="error" id="percenterror"></span>
+          </tr>
+        </table>
+      </section2>
+        <!-- ---------------------------------------------------------------------------------------------- -->
+      <section3 class="section">
+        <h3>Course info</h3>
+        <table>
+          <tr>
+            <th></th>
+            <th></th>
+          </tr>
+          <tr>
+            <td>
+              <label for="perfered course">Preferred Course</label>
+            </td>
+            <td>
+              <select name="perfered course" id="PreferredCourse">
+                <option value="selct course">select Course</option>
+                <option value="wd">Web Development</option>
+                <option value="ds">Data Science</option>
+                <option value="da">Data analytics</option>
+                <option value="java">Java</option>
+              </select>
+            </td>
+            <span class="error" id="courseerror"></span>
+          </tr>
+          <tr>
+            <td><label for="bt">Batch Timing</label></td>
+            <td>
+              <select name="bt" id="bt">
+                <option value="selct time">select time</option>
+                <option value="m">morning</option>
+                <option value="e">Evening</option>
+                <option value="a">Afternoon</option>
+                <option value="weekend">weekend</option>
+              </select>
+            </td>
+            <span class="error" id="timeerror"></span>
+          </tr>
+        </table>
+      </section3>
+
+
+      <!--  -------------------------------------------------------------- -->
+    
+
+        <section4 class="section">
+        <h3>Address</h3>
+        <table>
+          <tr>
+            <th></th>
+            <th></th>
+          </tr>
+          <tr>
+            <td><label for="add">Address</label></td>
+            <td><input type="address" name="add" id="address"/></td>
+            <span class="error" id="adderror"></span>
+          </tr>
+          <tr>
+            <td><label for="city">city</label></td>
+            <td><input type="text" name="city" id="city"/></td>
+            <span class="error" id="cityerror"></span>
+          </tr>
+          <tr>
+            <td><label for="pincode">Pincode</label></td>
+            <td><input type="tel" name="pincode" id="pincode"/></td>
+            <span class="error" id=pincodeerror"></span>
+          </tr>
+          
+            </table>
+        </section4>
+
+
+        <!-- ------------------------------------------------------------- -->
+    <section5 class="section">
+        <h3>Graduate details</h3>
+        <table>
+          <tr>
+            <th></th>
+            <th></th>
+          </tr>
+          <tr>
+            <td><label for="gname">Guradian's Full Name</label></td>
+            <td><input type="text" name="gname" id="gname"/></td>
+            <span class="error" id="gnameerror"></span>
+          </tr>
+          <tr>
+            <td><label for="gcontact">Guradian's Contact Number</label></td>
+            <td><input type="tel" name="gcontact" id="gcontact"/></td>
+            <span class="error" id="gcontacterror"></span>
+          </tr>
+        </table>
+    </section5>
+    
+
+    <!-- --------------------------------------------------------- -->
+   <section6 class="section"> 
+    <h3>Additional Details</h3>
+    <table>
+          <tr>
+            <th></th>
+            <th></th>
+          </tr>
+          <tr>
+            <td><label for="abour us">How did you hear about us?</label></td>
+            <td><select name="about us" id="aboutus">
+                <option value="select">select</option>
+                <option value="social media">social media</option>
+                <option value="college">college</option>
+                <option value="friend">Friend</option>
+                <option value="other">other</option>
+              </select></td>
+            <span class="error" id="aboutuserror"></span>
+          </tr>
+          
+        </table>
+
+      </section6>
+
+      <div class="btn" id="btn"><button onclick="submit()">Submit</button></div>
+    </section>
+
+
+    <script src="ricr.js"></script>
+  </body>
+</html>
