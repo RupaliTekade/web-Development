@@ -1,0 +1,54 @@
+#setup{
+    color:blue;
+    margin-top: 50px;
+    display: flex;
+    justify-content:space-around;
+    font-size: x-large;
+
+}
+
+#punchline{
+    color: red;
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-around;
+    font-size: x-large;
+}
+
+#main{
+    background-color:yellow;
+    border: 2px solid black;
+    height: 600px;
+    width: 600px;
+    margin-left: 500px;
+}
+
+#btn{
+    background-color:blueviolet;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 15px;
+    border: 2px solid black;
+    color: black;
+}
+#h2{
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    margin-top: 35px;
+}
+#bt{
+    display: flex;
+    justify-content: center;
+}
+#s{
+    margin-top: 50px;
+    color: green;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    font-size:xx-large;
+}
